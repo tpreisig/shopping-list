@@ -5,7 +5,7 @@
 }
 
 body {
-  background: linear-gradient(200deg, lime, navy);
+  background: linear-gradient(200deg, rgb(3, 254, 179), rgb(51, 0, 128));
   min-height: 100vh;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -27,13 +27,14 @@ body {
   backdrop-filter: blur(12px);
   color: #fff;
   border-radius: 12px;
+  border: 3px solid transparent;
   box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.3);
-  transition: all 0.3s ease;
+  transition: all 0.9s ease;
 }
 
 .App:hover {
   box-shadow: none;
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 3px dashed rgba(255, 255, 255, 0.5);
   cursor: pointer;
 }
 
@@ -41,7 +42,7 @@ header {
   padding: 6px 9px;
   margin-bottom: 20px;
   text-align: center;
-  border-bottom: 2px solid #0f0;
+  border-bottom: 2px solid rgb(3, 248, 203);
 }
 
 main {
@@ -50,6 +51,7 @@ main {
   align-items: center;
   justify-content: flex-start;
   min-height: 30vh;
+  width: 400px;
   margin-bottom: 10px;
   background: rgba(255, 255, 255, 0.1);
   background-image: linear-gradient(
@@ -66,7 +68,7 @@ main {
 
 main ul {
   list-style-type: none;
-  width: 460px;
+  width: 410px;
 }
 
 .item {
@@ -102,13 +104,13 @@ main ul {
   min-width: 48px;
   height: 22px;
   font-size: 1rem;
-  color: rgba(46, 16, 167, 0.615);
+  color: #03f8cb83;
   cursor: pointer;
 }
 
 .item svg:focus,
 .item svg:hover {
-  color: rgb(235, 27, 138);
+  color: #fa51ab5e;
   outline: none;
 }
 
@@ -142,7 +144,7 @@ main ul {
 }
 
 .addForm button:hover {
-  color: rgb(235, 27, 138);
+  color: #fa51abb2;
 }
 
 .searchForm {
