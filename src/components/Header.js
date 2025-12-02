@@ -7,7 +7,7 @@ const Header = ({ title }) => {
 }
 
 Header.defaultProps = {
-    title: "Groceries"
+    title: "Grocery List"
 }
 
 export default Header;
