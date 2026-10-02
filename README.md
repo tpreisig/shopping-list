@@ -4,7 +4,7 @@ App with search tool and web storage functionality written in React and TypeScri
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Version](https://img.shields.io/badge/version-1.0.0-orange)
+![Version](https://img.shields.io/badge/version-1.1.0-orange)
 
 ## Features
 
@@ -19,7 +19,7 @@ App with search tool and web storage functionality written in React and TypeScri
 
 ## App
 ![Screenshot](/assets/shopping.png)
-A clean, responsive, and fully functional application built with **React**.
+A clean, responsive, and fully functional application built with **React** and **TypeScript**.
 
 
 ## Components Overview
@@ -51,7 +51,7 @@ useEffect(() => {
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/tpreisig/react-grocery-list.git
+   git clone https://github.com/tpreisig/shopping-list.git
    ```
 2. Ensure your are in the project root directory
 
@@ -59,13 +59,9 @@ useEffect(() => {
    ```bash
    npm install
    ```
-4. Install required icon library:
+4. Start the development server:
    ```bash
-   npm install react-icons
-   ```
-5. Start the development server:
-   ```bash
-   npm start
+   npm run start
    ```
    The app will be available at http://localhost:3000.
 
