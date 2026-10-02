@@ -1,5 +1,6 @@
-# Grocery List – React Shopping List Application
-App with search tool and web storage functionality written in React. The app allows users to add items to their shopping list, remove items from the shopping list, search for items on the list, and save their list to local storage so it persists between sessions.
+# Shopping List Application
+
+App with search tool and web storage functionality written in React and TypeScript. The app allows users to add items to their shopping list, remove items from the shopping list, search for items on the list, and save their list to local storage so it persists between sessions.
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)

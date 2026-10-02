@@ -1,6 +1,11 @@
 import React from 'react'
 
-const SearchIt = ({ search, setSearch }) => {
+interface SearchItProps {
+    search: string
+    setSearch: React.Dispatch<React.SetStateAction<string>>
+}
+
+const SearchIt = ({ search, setSearch }: SearchItProps) => {
     return (
         <form className='searchForm' onSubmit={(e) => e.preventDefault()}>
             <label htmlFor='search'>Search</label>
