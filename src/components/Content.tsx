@@ -1,6 +1,18 @@
 import ItemList from './ItemList';
 
-const Content = ({ items, handleCheck, handleDelete }) => {
+type Item = {
+    id: number;
+    item: string;
+    checked: boolean;
+};
+
+type ContentProps = {
+    items: Item[];
+    handleCheck: (id: number) => void;
+    handleDelete: (id: number) => void;
+};
+
+const Content = ({ items, handleCheck, handleDelete }: ContentProps) => {
 
     return (
         <main>

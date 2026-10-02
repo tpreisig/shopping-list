@@ -1,6 +1,6 @@
 import LineItem from './LineItem';
 
-const ItemList = ({ items, handleCheck, handleDelete }) => {
+const ItemList = ({ items, handleCheck, handleDelete }: { items: any[]; handleCheck: any; handleDelete: any }) => {
     return (
         <ul>
             {items.map((item) => (
