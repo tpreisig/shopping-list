@@ -1,6 +1,6 @@
 # Shopping List Application
 
-App with search tool and web storage functionality written in React and TypeScript. The app allows users to add items to their shopping list, remove items from the shopping list, search for items on the list, and save their list to local storage so it persists between sessions.
+Beautifully hand-crafted App with search tool and web storage functionality written in React and TypeScript. The app allows users to add items to their shopping list, remove items from the shopping list, search for items on the list, and save their list to local storage so it persists between sessions.
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
@@ -61,9 +61,9 @@ useEffect(() => {
    ```
 4. Start the development server:
    ```bash
-   npm run start
+   npm run dev
    ```
-   The app will be available at http://localhost:3000.
+   The app will be available at http://localhost:5174/.
 
 ## License
 
