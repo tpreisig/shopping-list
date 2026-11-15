@@ -11,6 +11,7 @@ interface ShoppingItem {
   item: string;
 }
 
+
 function App() {
   const [items, setItems] = useState<ShoppingItem[]>(() => {
     const storedItems = localStorage.getItem("shoppinglist");
