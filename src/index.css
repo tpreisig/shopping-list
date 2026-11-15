@@ -111,13 +111,13 @@ main ul {
   min-width: 48px;
   height: 22px;
   font-size: 1rem;
-  color: #03f8cb83;
+  color: #45fbda83;
   cursor: pointer;
 }
 
 .item svg:focus,
 .item svg:hover {
-  color: #fa51ab5e;
+  color: #05fcfca2;
   outline: none;
 }
 
@@ -143,15 +143,13 @@ main ul {
   border-radius: 2px;
   background: rgba(255, 255, 255, 0.2);
   padding: 12px 20px;
-  /* color: rgb(235, 27, 138); */
-  color: rgb(76, 76, 147);
-  text-shadow: 2px 1px 1px rgba(255, 255, 200, 0.2);
+  color: #05fcfc;
   font-size: 1.2rem;
   font-weight: 700;
 }
 
 .addForm button:hover {
-  color: #fa51abb2;
+  color: #05fcfc;
 }
 
 .searchForm {
